@@ -1,6 +1,10 @@
 # run: conda env create --file base.yml
 name: base
+channels:
+  - conda-forge
 dependencies:
+  - git
+  - gh
   - ipywidgets
   - jupyterlab
   - nb_conda_kernels
