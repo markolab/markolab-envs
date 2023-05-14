@@ -13,3 +13,6 @@ dependencies:
   - pip:
       - black
       - nbdime
+      - jupyterlab-code-formatter
+      - jupyterlab-vim
+      - jupyterlab-lsp
