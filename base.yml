@@ -15,4 +15,4 @@ dependencies:
       - nbdime
       - jupyterlab-code-formatter
       - jupyterlab-vim
-      - jupyterlab-lsp
+      - jupyterlab-lsp[all]
