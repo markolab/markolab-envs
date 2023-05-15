@@ -16,3 +16,4 @@ dependencies:
       - jupyterlab-code-formatter
       - jupyterlab-vim
       - jupyterlab-lsp[all]
+      - jedi-language-server
