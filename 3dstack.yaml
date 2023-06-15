@@ -1,0 +1,21 @@
+# run: conda env create --file datastack.yml
+name: pcl_analysis
+dependencies:
+    - ipywidgets
+    - pip
+    - ffmpeg
+    - python==3.10
+    - pip:
+          - black
+          - joblib
+          - matplotlib
+          - opencv-python-headless
+          - open3d
+          - pandas
+          - polars
+          - pyarrow
+          - scikit-learn
+          - scipy
+          - seaborn
+          - toml
+          - tqdm

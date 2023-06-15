@@ -1,6 +1,10 @@
 # run: conda env create --file base.yml
 name: base
+channels:
+  - conda-forge
 dependencies:
+  - git
+  - gh
   - ipywidgets
   - jupyterlab
   - nb_conda_kernels
@@ -9,3 +13,7 @@ dependencies:
   - pip:
       - black
       - nbdime
+      - jupyterlab-code-formatter
+      - jupyterlab-vim
+      - jupyterlab-lsp[all]
+      - jedi-language-server
