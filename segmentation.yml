@@ -1,0 +1,23 @@
+# run: conda env create --file segmentation.yml
+name: segmentation
+dependencies:
+    - ipywidgets
+    - pip
+    - ffmpeg
+    - python==3.10
+    - pip:
+          - black
+          - joblib
+          - matplotlib
+          - opencv-python-headless
+          - pandas
+          - pyarrow
+          - scikit-learn
+          - scipy
+          - seaborn
+          - toml
+          - tqdm
+          - segments-ai
+          - torch
+          - torchvision
+          - torchaudio
