@@ -1,15 +1,24 @@
 # run: conda env create --file segmentation.yml
-name: segmentation
+name: segmentation-cuda-11_8
+channels:
+    - pytorch
+    - nvidia
+    - conda-forge
 dependencies:
     - ipywidgets
     - pip
     - ffmpeg
     - python==3.10
+    - pytorch 
+    - torchvision 
+    - torchaudio 
+    - pytorch-cuda=11.8
     - pip:
           - black
           - joblib
           - matplotlib
           - opencv-python-headless
+          - numpy
           - pandas
           - pyarrow
           - scikit-learn
@@ -18,6 +27,3 @@ dependencies:
           - toml
           - tqdm
           - segments-ai
-          - torch
-          - torchvision
-          - torchaudio
