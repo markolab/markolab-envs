@@ -20,6 +20,7 @@ dependencies:
           - black
           - joblib
           - matplotlib
+          - monai
           - opencv-python-headless
           - numpy
           - pandas
