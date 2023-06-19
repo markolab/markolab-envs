@@ -1,7 +1,7 @@
 # run: conda env create --file segmentation.yml
-name: segmentation-cuda-12_0
+name: segmentation-cuda-12_1
 channels:
-    - pytorch
+    - pytorch-nightly
     - nvidia
     - conda-forge
 dependencies:
@@ -12,7 +12,7 @@ dependencies:
     - pytorch 
     - torchvision 
     - torchaudio 
-    - pytorch-cuda=12.0
+    - pytorch-cuda=12.1
     - pip:
           - datasets
           - transformers
