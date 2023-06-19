@@ -13,6 +13,9 @@ dependencies:
     - torchaudio
     - cpuonly
     - pip:
+          - datasets
+          - transformers
+          - lightning
           - black
           - joblib
           - matplotlib

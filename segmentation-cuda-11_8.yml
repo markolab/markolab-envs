@@ -14,6 +14,9 @@ dependencies:
     - torchaudio 
     - pytorch-cuda=11.8
     - pip:
+          - datasets
+          - transformers
+          - lightning
           - black
           - joblib
           - matplotlib
