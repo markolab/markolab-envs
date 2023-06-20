@@ -20,6 +20,7 @@ dependencies:
           - polars
           - pyarrow
           - scikit-learn
+          - scikit-image
           - scipy
           - seaborn
           - statsmodels
