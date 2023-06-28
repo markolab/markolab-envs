@@ -31,3 +31,4 @@ dependencies:
           - toml
           - tqdm
           - segments-ai
+          - zarr
