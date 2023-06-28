@@ -15,12 +15,12 @@ dependencies:
     - pytorch-cuda=11.8
     - pip:
           - datasets
-          - transformers
+          - transformers[torch]
+          - evaluate
           - lightning
           - black
           - joblib
           - matplotlib
-          - monai
           - opencv-python-headless
           - numpy
           - pandas
@@ -29,6 +29,7 @@ dependencies:
           - scipy
           - seaborn
           - toml
+          - monai
           - tqdm
           - segments-ai
           - zarr
