@@ -32,3 +32,4 @@ dependencies:
           - monai
           - tqdm
           - segments-ai
+          - zarr
