@@ -1,0 +1,13 @@
+# run: conda env create --file segmentation.yml
+name: segmentation-cuda-11_8
+channels:
+    - pytorch
+    - conda-forge
+dependencies:
+    - pip
+    - python==3.10
+    - pytorch::pytorch 
+    - torchvision 
+    - torchaudio
+    - pip:
+        - cellpose
