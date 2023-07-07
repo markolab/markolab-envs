@@ -1,5 +1,5 @@
 # run: conda env create --file napari-windows.yml
-name: napari-macos
+name: napari-windows
 channels:
     - pytorch
     - nvidia
@@ -15,3 +15,5 @@ dependencies:
         - cellpose
         - cellpose-napari
         - napari-nikon-nd2
+        - napari-time-slicer
+        - napari-skimage-regionprops
