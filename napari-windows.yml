@@ -1,0 +1,17 @@
+# run: conda env create --file napari-windows.yml
+name: napari-macos
+channels:
+    - pytorch
+    - nvidia
+    - conda-forge
+dependencies:
+    - pip
+    - napari
+    - python==3.10
+    - pytorch-cuda=11.8
+    - torchvision 
+    - torchaudio
+    - pip:
+        - cellpose
+        - cellpose-napari
+        - napari-nikon-nd2
