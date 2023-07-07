@@ -1,13 +1,16 @@
-# run: conda env create --file cellpose-macos-apple_silicon.yml
-name: cellpose-macos-apple_silicon
+# run: conda env create --file napari-macos.yml
+name: napari-macos
 channels:
     - pytorch
     - conda-forge
 dependencies:
     - pip
+    - napari
     - python==3.10
     - pytorch::pytorch 
     - torchvision 
     - torchaudio
     - pip:
         - cellpose
+        - cellpose-napari
+        - napari-nikon-nd2
