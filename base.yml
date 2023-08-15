@@ -5,6 +5,7 @@ channels:
 dependencies:
   - git
   - gh
+  - conda-libmamba-solver
   - ipywidgets
   - jupyterlab<4.0
   - nb_conda_kernels
