@@ -3,7 +3,7 @@ name: data_analysis
 dependencies:
     - ipywidgets
     - pip
-    - ffmpeg
+    - conda-forge::ffmpeg
     - python==3.10
     - pip:
           - black
