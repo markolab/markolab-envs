@@ -7,7 +7,7 @@ dependencies:
   - gh
   - conda-libmamba-solver
   - ipywidgets
-  - jupyterlab<4.0
+  - jupyterlab
   - nb_conda_kernels
   - pip
   - python==3.10
