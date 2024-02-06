@@ -14,6 +14,7 @@ dependencies:
           - networkx
           - numba
           - numpyro
+          - onnxruntime
           - opencv-python-headless
           - optax
           - pandas
@@ -23,6 +24,7 @@ dependencies:
           - scikit-image
           - scipy
           - seaborn
+          - skl2onnx
           - statsmodels
           - toml
           - tqdm
