@@ -1,11 +1,11 @@
 # run: conda env create --file base.yml
 name: base
 channels:
-  - conda-forge
+  - defaults
 dependencies:
   - git
   - gh
-  - conda-libmamba-solver
+  # - conda-libmamba-solver
   - ipywidgets
   - jupyterlab
   - nb_conda_kernels
