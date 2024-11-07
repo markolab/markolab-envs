@@ -2,17 +2,17 @@
 name: base
 channels:
   - defaults
-  - conda-forge
+  # - conda-forge
 dependencies:
   - git
-  - gh
+  - conda-forge::gh
   # - conda-libmamba-solver
   - ipywidgets
   - jupyterlab
   - nb_conda_kernels
   - pip
   - python==3.10
-  - vim
+  - conda-forge::vim
 #  - mamba
   - pip:
       - black
