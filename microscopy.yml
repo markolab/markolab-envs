@@ -1,0 +1,32 @@
+# run: conda env create --file microscopy.yml
+name: microscopy
+channels:
+    - pytorch
+    - conda-forge
+dependencies:
+    - pip
+    - ipywidgets
+    - ffmpeg
+    - python==3.10
+    - pytorch::pytorch 
+    - torchvision 
+    - torchaudio
+    - pip:
+        - cellpose==2.2.3
+	- nd
+        - black
+        - dynamax
+        - jax
+        - joblib
+        - matplotlib
+        - opencv-python-headless
+        - pandas
+        - pyarrow
+        - scikit-learn
+        - scikit-image
+        - scipy
+        - seaborn
+        - toml
+        - tqdm
+
+	
