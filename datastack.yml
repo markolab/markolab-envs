@@ -1,10 +1,17 @@
 # run: conda env create --file datastack.yml
 name: data_analysis
+channels:
+    - pytorch
+    - conda-forge
 dependencies:
     - ipywidgets
     - pip
-    - ffmpeg
+    - conda-forge::ffmpeg
     - python==3.10
+    - pytorch
+    - torchvision 
+    - torchaudio
+    - cpuonly
     - pip:
           - black
           - dynamax
@@ -14,6 +21,7 @@ dependencies:
           - networkx
           - numba
           - numpyro
+          - onnxruntime
           - opencv-python-headless
           - optax
           - pandas
@@ -23,6 +31,7 @@ dependencies:
           - scikit-image
           - scipy
           - seaborn
+          - skl2onnx
           - statsmodels
           - toml
           - tqdm

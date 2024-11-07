@@ -5,11 +5,14 @@ channels:
 dependencies:
   - git
   - gh
+  - conda-libmamba-solver
   - ipywidgets
   - jupyterlab
   - nb_conda_kernels
   - pip
   - python==3.10
+  - vim
+#  - mamba
   - pip:
       - black
       - nbdime

@@ -1,13 +1,14 @@
-# run: conda env create --file napari-macos.yml
-name: napari-macos
+# run: conda env create --file napari-windows.yml
+name: napari-windows
 channels:
     - pytorch
+    - nvidia
     - conda-forge
 dependencies:
     - pip
     - napari
-    - python==3.9
-    - pytorch::pytorch 
+    - python==3.10
+    - pytorch-cuda=11.8
     - torchvision 
     - torchaudio
     - pip:
